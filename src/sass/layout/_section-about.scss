@@ -1,5 +1,5 @@
+
 .about-us-center {
-  //padding-bottom: 100px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -10,14 +10,6 @@
   max-width: 685px;
   width: 100%;
   text-align: center;
-
-  h3 {
-    color: #576671;
-    font-family: "Raleway - Extra Light", sans-serif;
-    font-size: 60px;
-    font-weight: 200;
-    margin-bottom: 60px;
-  }
 }
 
 .block-box {
@@ -31,7 +23,7 @@
     text-align: center;
     flex-wrap: wrap;
 
-    a {
+    .box-items-btn {
       width: 180px;
       height: 180px;
       display: flex;
@@ -39,17 +31,18 @@
       align-items: center;
       background: hsl(180, 9%, 93%);
       border-radius: 50%;
-      margin: 0 0 30px;
+      margin: 0 0 50px;
+
+      &:hover {
+        background: hsl(163, 100%, 45%);
+      }
     }
   }
 }
 
-.about-us-button {
-  color: #ffffff;
-  display: inline-block;
-  border-radius: 24px;
-  padding: 10px 50px;
-  border: 2px solid #ffffff;
-  background-color: #17daa3;
-  margin: 80px 0 100px;
+.subtitle{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
 }
+

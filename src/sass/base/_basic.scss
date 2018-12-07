@@ -4,8 +4,22 @@
   margin: 0 auto;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 h2 {
   margin: 0;
+}
+
+h3 {
+  color: #576671;
+  font-family: "Raleway - Extra Light", sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  margin-bottom: 60px;
 }
 
 a {
@@ -18,4 +32,8 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.section-bg {
+  background: hsl(240, 9%, 98%);
 }

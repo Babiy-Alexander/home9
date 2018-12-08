@@ -1,0 +1,50 @@
+.slider-bg {
+  background: url('../img/room-bg.png') center no-repeat;
+  padding: 150px 0;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  img {
+    margin-top: 35px;
+  }
+
+  .slider-button {
+    margin-top: 120px;
+  }
+}
+
+.slider-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $base-text-bg;
+
+  i {
+    font-size: 60px;
+    opacity: 0.5;
+  }
+
+  h2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 3;
+    padding: 0 140px;
+  }
+
+  .bold {
+    color: #17daa3;
+  }
+
+  .text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 2.5;
+  }
+}

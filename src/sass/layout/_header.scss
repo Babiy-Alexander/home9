@@ -1,8 +1,9 @@
 
 .header-bg {
   background: url('../img/header-bg.png') center no-repeat;
-  background-size: cover;
-  height: 1100px;
+  width: 100%;
+  height: 1068px;
+  margin: 0 auto;
 }
 
   .header-section {
@@ -18,10 +19,10 @@
       font-size: 14px;
       font-weight: 700;
       line-height: 2;
-    }
 
-    :hover {
-      color: hsl(0, 2%, 78%);
+      &:hover {
+        color: hsl(0, 2%, 78%);
+      }
     }
 
     .nav {
@@ -78,7 +79,7 @@
   margin: 110px 0;
 }
 
-.slider {
+.slider-button {
 
   .round {
     display: inline-block;
@@ -87,15 +88,15 @@
     border: 2px solid $base-text-bg;
     border-radius: 50%;
     margin: 0 5px;
+
+    &:hover {
+      background: $base-text-bg;
+    }
   }
 
   .active {
     background: $base-text-bg;
   }
-}
-
-.round:hover {
-  background: $base-text-bg;
 }
 
 .header-aside {

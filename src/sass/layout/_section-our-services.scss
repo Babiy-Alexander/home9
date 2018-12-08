@@ -1,0 +1,28 @@
+.box-item-services {
+  width: 50%;
+  margin-bottom: 70px;
+
+  .box-items-btn {
+    width: 94px;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(180, 9%, 93%);
+    border-radius: 50%;
+    float: left;
+  }
+
+  .mini-box {
+    display: flex;
+    align-items: center;
+  }
+
+  h3 {
+    margin: 0 50px;
+  }
+
+  .section-text {
+    padding-left: 145px;
+  }
+}

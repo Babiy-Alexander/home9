@@ -1,23 +1,17 @@
 
-.about-us-center {
+.content-center {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.about-us-block {
-  margin: 100px auto;
-  max-width: 685px;
-  width: 100%;
-  text-align: center;
-}
-
 .block-box {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   .box-items {
-    max-width: 20%;
+    width: 20%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -45,4 +39,7 @@
   font-size: 30px;
   font-weight: 400;
 }
+
+
+
 

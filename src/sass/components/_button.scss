@@ -1,9 +1,46 @@
+.button {
+  display: inline-block;
+  color: $base-text-bg;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  border: 2px solid $base-text-bg;
+  border-radius: 30px;
+  padding: 10px  50px;
+  margin: 110px 0;
+
+  &:hover {
+    background: hsl(159, 56%, 26%);
+  }
+}
+
 .button-section {
-  color: #ffffff;
+  color: $base-text-bg;
   display: inline-block;
   border-radius: 24px;
   padding: 10px 50px;
-  border: 2px solid #ffffff;
-  background-color: #17daa3;
+  border: 2px solid $base-text-bg;
+  background-color: hsl(163, 81%, 47%);
   margin: 80px 0;
+
+  &:hover {
+    background-color: hsl(161, 64%, 43%);
+  }
+}
+
+.purchase-button {
+  display: flex;
+  justify-content: space-between;
+  background: hsl(163, 81%, 47%);
+  padding: 25px;
+
+  &:hover {
+    background-color: hsl(161, 64%, 43%);
+  }
+
+  .fa-shopping-cart {
+    color: $base-text-bg;
+  }
 }

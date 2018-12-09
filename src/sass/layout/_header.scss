@@ -31,7 +31,6 @@
     }
   }
 
-
 .center {
   height:500px;
   display: flex;
@@ -63,20 +62,6 @@
 
 .center-text {
   text-align: center;
-}
-
-.button {
-  display: inline-block;
-  color: $base-text-bg;
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  text-decoration: none;
-  border: 2px solid $base-text-bg;
-  border-radius: 30px;
-  padding: 10px  50px;
-  margin: 110px 0;
 }
 
 .slider-button {

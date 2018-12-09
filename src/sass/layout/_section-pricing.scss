@@ -1,0 +1,36 @@
+.pricing {
+
+  .box-item-pricing {
+    width: calc(100% / 4 - 30px);
+    background: hsl(0, 0%, 100%);
+    margin: 0 10px;
+  }
+
+  .purchase-text {
+    color: $base-text-bg;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+  }
+
+  .mini-box {
+    padding: 30px;
+    border-bottom: 2px solid hsl(240, 9%, 98%);
+
+    h3 {
+      color: hsl(163, 81%, 47%);
+    }
+  }
+
+  .section-text-cont {
+    padding: 40px 30px 50px;
+    color: #87949e;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+}

@@ -11,6 +11,10 @@
     background: hsl(180, 9%, 93%);
     border-radius: 50%;
     float: left;
+
+    &:hover {
+      background: hsl(240, 4%, 78%);
+    }
   }
 
   .mini-box {
